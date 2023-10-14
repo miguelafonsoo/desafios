@@ -65,7 +65,7 @@ main h3 {
 main ul li:nth-child(1) {
   background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
   padding-top: 60px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
   border-radius: 20px;
   box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.250);
 }
@@ -105,6 +105,7 @@ main h2 {
 }
 
 a {
+    
     text-decoration: none;
     color: white;
   }
@@ -135,7 +136,7 @@ body {
 }
 
 li {
-  padding-bottom: 1px;
+  padding-bottom: 10px;
   list-style-type: none;
   margin-left: -32px;
   border-radius: 0px 20px 20px 0px;
