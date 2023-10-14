@@ -49,7 +49,7 @@ main h1 {
 }
 
 main h3 {
-  margin-bottom: 10px;
+  padding-bottom: 7px;
   color: hsl(0, 0%, 100%);
   font-size: 1.5em;
 }
