@@ -2,6 +2,12 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
 
+@media (max-width: 500px) {
+  .coluna {
+    display: none;
+  }
+}
+
 :root {
   --primaria-vermelha: hsl(0, 100%, 67%);
   --primaria-amarela: hsl(39, 100%, 56%);
@@ -68,6 +74,7 @@ main ul li:nth-child(1) {
   padding-bottom: 60px;
   border-radius: 20px;
   box-shadow: 4px 3px 5px rgba(0, 0, 0, 0.250);
+
 }
 
 main h2 {
@@ -85,7 +92,6 @@ main h2 {
 }
 
 .esquerda {
-  text-align: left;
   display: flex;
   align-items: center;
 }
@@ -95,7 +101,6 @@ main h2 {
 }
 
 .direita {
-  text-align: right;
   color: hsl(224, 30%, 27%);
 }
 
@@ -105,7 +110,6 @@ main h2 {
 }
 
 a {
-    
     text-decoration: none;
     color: white;
   }
@@ -124,7 +128,7 @@ a {
 }
 
 body {
-  padding-top: 100px;
+
   text-align: center;
   max-width: 600px;
   margin: auto;
