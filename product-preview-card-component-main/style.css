@@ -70,7 +70,7 @@ h1 {
 }
 
 #ladodireito .primeiropar {
-    font-size: 14px;
+    font-size: 17px;
     padding-top: 20px;
     color: var(--Dark-grayish-blue);
 }
@@ -78,6 +78,7 @@ h1 {
 #primeiropar {
     font-family: var(--fonte-destaque);
     color: var(--Dark-grayish-blue);
+
 }
 
 #segundopar {
