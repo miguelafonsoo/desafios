@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root {
+    --Soft-blue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+    --Very-dark-blue: hsl(217, 54%, 11%);
+    --Very-dark-blue-card: hsl(216, 50%, 16%);
+    --Very-dark-blue-line: hsl(215, 32%, 27%);
+    --White: hsl(0, 0%, 100%);
+    --font-default: 'Outfit', sans-serif;
+
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+main {
+    max-width: 300px;
+    margin: auto;
+    background-color: var(--Very-dark-blue-card);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    
+}
+
+main img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.svg-icon {
+    position: absolute;
+    top: 50%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s;
+    background-color: transparent;
+}
+
+.image-container:hover .svg-icon {
+    opacity: 1;
+    background-color: transparent;
+}
+
+.image-container .image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 99%;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.image-container:hover .image-overlay {
+    background: hsla(178, 100%, 50%, 0.5); /* Fundo verde transparente (ao passar o mouse) */
+}
+
+main h1 {
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+main p {
+    padding: 10px 0px;
+    font-size: 18px;
+    color: var(--Soft-blue);
+}
+
+body{
+    background-color: var(--Very-dark-blue);
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    font-family: var(--font-default); 
+}
+
+svg {
+    padding-right: 5px;
+}
+
+
+#etherium{
+    display: inline-block;
+    color: var(--Cyan) ;
+}
+
+#clock {
+    display: inline-block;
+    padding-left: 70px;
+    color: var(--Soft-blue);
+}
+ 
+#footer {
+    border-top: 1px solid var(--Very-dark-blue-line);
+    padding-top: 15px;
+}
+
+#footer img {
+    display: inline-block;
+    width: 10%;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+
+#footer p {
+    display: inline-block;
+    padding-left: 10px;
+    position: relative;
+    top: -10px;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--White);
+}
+
+a:hover {
+    color: var(--Cyan);
+}
