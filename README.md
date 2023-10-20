@@ -8,3 +8,5 @@
 
 <a href="https://miguelafonsoo.github.io/desafios/nft-preview-card-component-main">4º Desafio</a>
 
+<a href="https://miguelafonsoo.github.io/desafios/order-summary-component-main">5º Desafio</a>
+
